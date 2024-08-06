@@ -1,789 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Simply Chocolate</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Chocolate</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="./css/styles.css" />
-    </head>
-    <body>
-        <header class="header">
-            <div class="container header-container">
-                <nav class="header-navigation">
-                    <a class="header-logo" href="./index.html">
-                        <span class="logo-wrapper"
-                            ><span class="header-logo-italic">Simply</span>
-                            Chocolate</span
-                        >
-                        <svg class="logo-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-logo"></use>
-                        </svg>
-                    </a>
-                    <ul class="header-navbar">
-                        <li class="header-navbar-item current">
-                            <a class="header-navbar-link" href="./index.html"
-                                >Home</a
-                            >
-                        </li>
-                        <li class="header-navbar-item">
-                            <a class="header-navbar-link" href="#made"
-                                >How it's made?</a
-                            >
-                        </li>
-                        <li class="header-navbar-item">
-                            <a class="header-navbar-link" href="#reviews"
-                                >Chocolate is loved</a
-                            >
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="header-social-list">
-                    <li class="header-social-item">
-                        <a
-                            class="header-social-link"
-                            href="https://www.instagram.com/"
-                        >
-                            <svg
-                                class="header-social-icon"
-                                width="24"
-                                height="24"
-                            >
-                                <use
-                                    href="./images/icons.svg#icon-instagram"
-                                ></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social-item">
-                        <a class="header-social-link" href="https://x.com">
-                            <svg
-                                class="header-social-icon"
-                                width="24"
-                                height="24"
-                            >
-                                <use
-                                    href="./images/icons.svg#icon-twitter"
-                                ></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <span class="logo-wrapper"
+              ><span class="header-logo-italic">Simply</span> Chocolate</span
+            >
+            <svg class="logo-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="header-navbar">
+            <li class="header-navbar-item current">
+              <a class="header-navbar-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-navbar-item">
+              <a class="header-navbar-link" href="#made">How it's made?</a>
+            </li>
+            <li class="header-navbar-item">
+              <a class="header-navbar-link" href="#reviews"
+                >Chocolate is loved</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a class="header-social-link" href="https://www.instagram.com/">
+              <svg class="header-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a class="header-social-link" href="https://x.com">
+              <svg class="header-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
 
-                <button class="burger-menu" type="button" data-menu-open>
-                    <svg class="burger-menu-icon" width="28" height="28">
-                        <use href="./images/icons.svg#icon-burger"></use>
-                    </svg>
-                </button>
-            </div>
+        <button class="burger-menu" type="button" data-menu-open>
+          <svg class="burger-menu-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
 
-            <div class="mobile-menu" data-menu>
-                <div>
-                    <button
-                        class="mobile-menu-close-btn"
-                        type="button"
-                        data-menu-close
-                    >
-                        <svg
-                            class="mobile-menu-close-icon"
-                            width="28"
-                            height="28"
-                        >
-                            <use href="./images/icons.svg#icon-close"></use>
-                        </svg>
-                    </button>
-                    <nav class="mobile-menu-navbar">
-                        <ul class="mobile-menu-list">
-                            <li class="mobile-menu-item">
-                                <a class="mobile-menu-link" href="/">Home</a>
-                            </li>
-                            <li class="mobile-menu-item">
-                                <a class="mobile-menu-link" href="#"
-                                    >How it's made?</a
-                                >
-                            </li>
-                            <li class="mobile-menu-item">
-                                <a class="mobile-menu-link" href="#"
-                                    >Chocolate is loved</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <ul class="mobile-menu-social-list">
-                    <li class="mobile-menu-social-item">
-                        <a
-                            class="mobile-menu-social-link"
-                            href="https://www.instagram.com/"
-                            target="_blank"
-                            rel="no-referrer noopener"
-                        >
-                            <svg
-                                class="mobile-menu-socail-icon"
-                                width="22"
-                                height="22"
-                            >
-                                <use
-                                    href="./images/icons.svg#icon-instagram"
-                                ></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mobile-menu-social-item">
-                        <a
-                            class="mobile-menu-social-link"
-                            href="https://x.com/"
-                            target="_blank"
-                            rel="no-referrer noopener"
-                        >
-                            <svg
-                                class="mobile-menu-socail-icon"
-                                width="22"
-                                height="22"
-                            >
-                                <use
-                                    href="./images/icons.svg#icon-twitter"
-                                ></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-        <main>
-            <section class="hero-section">
-                <div class="container hero-container">
-                    <h1 class="hero-title">
-                        Treat yourself or a loved one to our finest ingredients
-                        for a moment of pure delight!
-                    </h1>
-                    <div class="hero-btns">
-                        <button class="hero-button" type="button">
-                            Buy now
-                        </button>
-                        <a class="made-section-anchor" href="#made"
-                            >How it's made</a
-                        >
-                        <a class="scroll-down-anchor" href="#"
-                            >scroll down
-                            <span class="scroll-down-wrapper">
-                                <svg
-                                    class="scroll-down-icon"
-                                    width="16"
-                                    height="16"
-                                >
-                                    <use
-                                        href="./images/icons.svg#icon-scroll-down"
-                                    ></use>
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="benefits-section">
-                <div class="container">
-                    <ul class="benefits-list">
-                        <li class="benefits-item">
-                            <div class="icon-wrapper">
-                                <svg
-                                    class="benefits-icon"
-                                    width="32"
-                                    height="32"
-                                >
-                                    <use
-                                        href="./images/icons.svg#icon-choco-bar"
-                                    ></use>
-                                </svg>
-                            </div>
-                            <h3 class="benefits-subtitle">Unsurpassed taste</h3>
-                            <p class="benefits-text">
-                                Crafted with the finest quality cocoa beans and
-                                a dedication to perfection, each bite is a
-                                decadent experience that simply cannot be
-                                matched. Savor the richness and complexity of
-                                our Unsurpassed Taste and discover a new level
-                                of chocolate bliss.
-                            </p>
-                        </li>
-                        <li class="benefits-item">
-                            <div class="icon-wrapper">
-                                <svg
-                                    class="benefits-icon"
-                                    width="32"
-                                    height="32"
-                                >
-                                    <use
-                                        href="./images/icons.svg#icon-coins"
-                                    ></use>
-                                </svg>
-                            </div>
-                            <h3 class="benefits-subtitle">Affordable price</h3>
-                            <p class="benefits-text">
-                                Indulge in high-quality chocolate without
-                                breaking the bank with Simply Chocolate's
-                                selection of affordable treats. Enjoy
-                                mouth-watering truffles and velvety chocolate
-                                bars without sacrificing taste or quality.
-                                Browse our selection and indulge in affordable
-                                luxury today.
-                            </p>
-                        </li>
-                        <li class="benefits-item">
-                            <div class="icon-wrapper">
-                                <svg
-                                    class="benefits-icon"
-                                    width="32"
-                                    height="32"
-                                >
-                                    <use
-                                        href="./images/icons.svg#icon-spoon"
-                                    ></use>
-                                </svg>
-                            </div>
-                            <h3 class="benefits-subtitle">Own production</h3>
-                            <p class="benefits-text">
-                                We take pride in our own production process,
-                                ensuring that every step is carefully crafted to
-                                perfection. From selecting the finest
-                                ingredients to handcrafting each piece, our
-                                attention to detail is evident in every bite.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="ingredients-section">
-                <div class="container">
-                    <h2 class="section-title section-title-width">
-                        It all adds up to one exceptional
-                        <span class="section-title-color">taste</span> sensation
-                    </h2>
-                    <p class="ingredients-section-text">
-                        At Simply Chocolate, we believe that the secret to
-                        exceptional chocolate is in the details. From the
-                        sourcing of the finest ingredients to the careful
-                        crafting of each individual piece, every step of our
-                        process adds up to one exceptional taste sensation.
-                    </p>
-                    <ul class="ingredients-list">
-                        <li class="ingredients-item orange-bg-card">
-                            <picture>
-                                <source
-                                    srcset="
-                                        ./images/comp-img/milk-chocolate-@1x.png 1x,
-                                        ./images/comp-img/milk-chocolate-@2x.png 2x
-                                    "
-                                />
-
-                                <img
-                                    src="./images/comp-img/milk-chocolate-@1x.png"
-                                    alt="Milk chocolate bar"
-                                />
-                            </picture>
-                            <h3 class="ingredients-item-caption">
-                                Milk chocolate
-                            </h3>
-                            <div class="card-overlay">
-                                <h3 class="thumb-title">Milk chocolate</h3>
-                                <div class="btn-wrapper">
-                                    <button
-                                        class="thumb-btn colored"
-                                        type="button"
-                                    >
-                                        Chocolate
-                                    </button>
-                                    <button
-                                        class="thumb-btn transparent"
-                                        type="button"
-                                    >
-                                        The benefits
-                                    </button>
-                                </div>
-                                <p class="thumb-text">
-                                    Milk chocolate is a solid chocolate
-                                    confectionery containing cocoa, sugar and
-                                    milk. It is the most consumed type of
-                                    chocolate. Chocolate was originally sold and
-                                    consumed as a beverage in pre-Columbian
-                                    times. Although four-fifths of all milk
-                                    chocolate is sold in the United States and
-                                    Europe.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="ingredients-item white-bg-card">
-                            <picture>
-                                <source
-                                    srcset="
-                                        ./images/comp-img/milk-@1x.png 1x,
-                                        ./images/comp-img/milk-@2x.png 2x
-                                    "
-                                />
-
-                                <img
-                                    src="./images/comp-img/milk-@1x.png"
-                                    alt="Bottle of milk"
-                                />
-                            </picture>
-                            <h3
-                                class="ingredients-item-caption dark-color-text"
-                            >
-                                Milk
-                            </h3>
-                            <div class="card-overlay">
-                                <h3 class="thumb-title">Milk</h3>
-                                <div class="btn-wrapper">
-                                    <button
-                                        class="thumb-btn colored"
-                                        type="button"
-                                    >
-                                        Milk
-                                    </button>
-                                    <button
-                                        class="thumb-btn transparent"
-                                        type="button"
-                                    >
-                                        The benefits
-                                    </button>
-                                </div>
-                                <p class="thumb-text">
-                                    Milk is a white liquid food produced by the
-                                    mammary glands of mammals. It is the primary
-                                    source of nutrition for young mammals
-                                    (including breastfed human infants) before
-                                    they are able to digest solid
-                                    food.Early-lactation milk, which is called
-                                    colostrum, contains antibodies that
-                                    strengthen the immune system.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="ingredients-item dark-bg-card">
-                            <picture>
-                                <source
-                                    srcset="
-                                        ./images/comp-img/nuts-@1x.png 1x,
-                                        ./images/comp-img/nuts-@2x.png 2x
-                                    "
-                                />
-
-                                <img
-                                    src="./images/comp-img/nuts-@1x.png"
-                                    alt="Hazelnuts"
-                                />
-                            </picture>
-                            <h3 class="ingredients-item-caption">Nuts</h3>
-                            <div class="card-overlay">
-                                <h3 class="thumb-title">Nuts</h3>
-                                <div class="btn-wrapper">
-                                    <button
-                                        class="thumb-btn colored"
-                                        type="button"
-                                    >
-                                        Nuts
-                                    </button>
-                                    <button
-                                        class="thumb-btn transparent"
-                                        type="button"
-                                    >
-                                        The benefits
-                                    </button>
-                                </div>
-                                <p class="thumb-text">
-                                    Almonds, pistachios, and walnuts are some
-                                    types of nuts that contain healthy
-                                    nutrients. When eaten as part of a
-                                    nutrient-dense diet, these 9 nuts may offer
-                                    benefits such as reducing your risk of heart
-                                    disease. They're a good source of fiber,
-                                    healthy fats, and plant protein. Plus,
-                                    they're great on their own.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="ingredients-item white-bg-card">
-                            <picture>
-                                <source
-                                    srcset="
-                                        ./images/comp-img/cocao-beans-@1x.png 1x,
-                                        ./images/comp-img/cocao-beans-@2x.png 2x
-                                    "
-                                />
-
-                                <img
-                                    src="./images/comp-img/cocao-beans-@1x.png"
-                                    alt="Cocoa beans"
-                                />
-                            </picture>
-                            <h3
-                                class="ingredients-item-caption dark-color-text"
-                            >
-                                Semi-sweet chocolate
-                            </h3>
-                            <div class="card-overlay">
-                                <h3 class="thumb-title">
-                                    Semi - sweet chocolate
-                                </h3>
-                                <divc class="btn-wrapper">
-                                    <button
-                                        class="thumb-btn colored"
-                                        type="button"
-                                    >
-                                        Sweet chocolate
-                                    </button>
-                                    <button
-                                        class="thumb-btn transparent"
-                                        type="button"
-                                    >
-                                        The benefits
-                                    </button>
-                                </divc>
-                                <p class="thumb-text">
-                                    Semi-sweet chocolate has a cocoa solid
-                                    content of 35 to 65%. One of the best ways
-                                    to gain an understanding of this type of
-                                    chocolate is to compare it to a different
-                                    type of chocolate. Semisweet is darker than
-                                    milk chocolate. In a taste comparison, it
-                                    has a slightly bitter taste whereas milk
-                                    chocolate is sweeter and more mellow.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="made-section" id="made">
-                <div class="container">
-                    <h2 class="section-title made-title">
-                        How it's <span class="section-title-color">made?</span>
-                    </h2>
-                    <div class="made-flex">
-                        <div class="made-img-wrapper">
-                            <picture>
-                                <source
-                                    media="(max-width:767px)"
-                                    srcset="
-                                        ./images/made-img/made-mob-@1x.jpg 1x,
-                                        ./images/made-img/made-mob-@2x.jpg 2x
-                                    "
-                                />
-                                <source
-                                    media="(min-width:768px)"
-                                    srcset="
-                                        ./images/made-img/made-@1x.jpg 1x,
-                                        ./images/made-img/made-@2x.jpg 2x
-                                    "
-                                />
-                                <img
-                                    src="./images/made-img/made-@1x.jpg"
-                                    alt="Trickle of melted dark chocolate"
-                                    width="600"
-                                />
-                            </picture>
-                        </div>
-                        <div class="made-text-wrapper">
-                            <h3 class="made-subtitle">
-                                Try our chocolates today and discover the
-                                perfect balance of flavor
-                            </h3>
-                            <ul class="made-section-list">
-                                <li class="made-section-item">
-                                    Heat the milk in a saucepan without bringing
-                                    it to a boil. Add sugar and cocoa powder.
-                                </li>
-                                <li class="made-section-item">
-                                    At the same time, prepare a water bath. Melt
-                                    the butter on it.
-                                </li>
-                                <li class="made-section-item">
-                                    "Mix" the milk mixture and already liquid
-                                    butter. Mix thoroughly with a silicone
-                                    spatula so that the mass becomes uniform and
-                                    silky.
-                                </li>
-                                <li class="made-section-item">
-                                    Heat the mixture over low heat, letting it
-                                    barely boil.
-                                </li>
-                                <li class="made-section-item">
-                                    Pour the chocolate into special containers
-                                    (can be replaced with ice molds). Allow to
-                                    cool and harden.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="reviews-section" id="reviews">
-                <div class="container">
-                    <h2 class="section-title review-title">
-                        <span class="section-title-color">Chocolate</span> is
-                        loved
-                    </h2>
-                    <ul class="reviews-list">
-                        <li class="reviews-item">
-                            <div class="img-wrapper">
-                                <picture>
-                                    <source
-                                        srcset="
-                                            ./images/reviews-img/img-1-@1x.jpg 1x,
-                                            ./images/reviews-img/img-1-@2x.jpg 2x
-                                        "
-                                    />
-                                    <img
-                                        src="./images/reviews-img/img-1-@1x.jpg"
-                                        alt="Young redhead girl"
-                                    />
-                                </picture>
-                            </div>
-                            <h3 class="reviews-subtitle">
-                                Victoria Dobrzhanska
-                            </h3>
-                            <p class="reviews-text">
-                                I love this chocolate bar. Perfect combination
-                                of light crispy wafer, covered in a thin layer
-                                chocolate.
-                            </p>
-                        </li>
-                        <li class="reviews-item">
-                            <div class="img-wrapper">
-                                <picture>
-                                    <source
-                                        srcset="
-                                            ./images/reviews-img/img-2-@1x.jpg 1x,
-                                            ./images/reviews-img/img-2-@2x.jpg 2x
-                                        "
-                                    />
-
-                                    <img
-                                        src="./images/reviews-img/img-2-@1x.jpg"
-                                        alt="Young redhead man"
-                                    />
-                                </picture>
-                            </div>
-                            <h3 class="reviews-subtitle">Nazar Babenko</h3>
-                            <p class="reviews-text">
-                                This chocolate confection is a delight! A
-                                delight! The wafer is light and crisp, the
-                                hazelnut cream is smooth, and the chocolate is
-                                good.
-                            </p>
-                        </li>
-                        <li class="reviews-item">
-                            <div class="img-wrapper">
-                                <picture>
-                                    <source
-                                        srcset="
-                                            ./images//reviews-img/img-3-@1x.jpg 1x,
-                                            ./images//reviews-img/img-3-@2x.jpg 2x
-                                        "
-                                    />
-                                    <img
-                                        src="./images//reviews-img/img-3-@1x.jpg"
-                                        alt="Young light girl"
-                                    />
-                                </picture>
-                            </div>
-                            <h3 class="reviews-subtitle">Olena Kampusch</h3>
-                            <p class="reviews-text">
-                                Chocolate is a family favourite treat. Love the
-                                delicious smooth chocolate and the creaminess
-                                inside. The wafer is soft but crunchy.
-                            </p>
-                        </li>
-                    </ul>
-
-                    <button class="review-button" type="button" data-modal-open>
-                        Leave a review
-                    </button>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-top-wrapper">
-                    <p class="footer-text-title">
-                        <span class="footer-accent-color">Chocolate</span> a
-                        delicious cure for a bad day
-                    </p>
-                    <address class="contacts">
-                        <p class="contact-text">Contact us</p>
-                        <ul class="contact-list">
-                            <li class="contact-item">
-                                <a class="contact-link" href="tel:+380684439426"
-                                    >+380 (68) 443-94-26</a
-                                >
-                            </li>
-                            <li class="contact-item">
-                                <a
-                                    class="contact-link"
-                                    href="mailto:simplychoc@gmail.com"
-                                    >simplychoc@gmail.com</a
-                                >
-                            </li>
-                        </ul>
-                    </address>
-                </div>
-                <div class="footer-bottom-wrapper">
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a class="footer-link" href="">Home</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="#made"
-                                >How it's made?</a
-                            >
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="#reviews"
-                                >Chocolate is loved</a
-                            >
-                        </li>
-                    </ul>
-
-                    <form class="footer-form">
-                        <label class="footer-label" for="user-email">
-                            <input
-                                type="email"
-                                name="user-email"
-                                class="footer-input"
-                                id="user-email"
-                                placeholder="Enter your email"
-                            />
-                        </label>
-                        <button class="footer-subscibe-button" type="submit">
-                            Subscribe
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </footer>
-        <div class="modal-backdrop" data-modal>
-            <div class="modal">
-                <button class="modal-close-btn" type="button" data-modal-close>
-                    <svg class="modal-close-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
-                <p class="modal-text-title">
-                    leave a review about
-                    <span class="modal-accent">our chocolate</span>
-                </p>
-
-                <form class="modal-form">
-                    <div class="form-field">
-                        <label class="form-label" for="user-name">Name</label>
-                        <div class="input-wrapper">
-                            <input
-                                class="form-input"
-                                type="text"
-                                id="user-name"
-                                name="user-name"
-                                required
-                            />
-                            <svg class="input-icon">
-                                <use href="./images/icons.svg#icon-user"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="form-field">
-                        <label class="form-label" for="user-email">Email</label>
-                        <div class="input-wrapper">
-                            <input
-                                class="form-input"
-                                type="email"
-                                id="user-email"
-                                name="user-email"
-                                required
-                            />
-                            <svg class="input-icon">
-                                <use href="./images/icons.svg#icon-mail"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="form-field">
-                        <label class="form-label" for="user-phone"
-                            >Phone number</label
-                        >
-                        <div class="input-wrapper">
-                            <input
-                                class="form-input"
-                                type="tel"
-                                id="user-phone"
-                                name="user-phone"
-                                required
-                            />
-                            <svg class="input-icon">
-                                <use href="./images/icons.svg#icon-phone"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="form-field textarea">
-                        <label class="form-label" for="user-comment"
-                            >Comment</label
-                        >
-                        <textarea
-                            class="form-textarea"
-                            name="user-comment"
-                            id="user-comment"
-                            placeholder="Enter text"
-                        ></textarea>
-                    </div>
-                    <div class="form-checkbox">
-                        <input
-                            class="input-checkbox visually-hidden"
-                            type="checkbox"
-                            name="user-policy"
-                            id="user-policy"
-                            value="true"
-                            required
-                        />
-                        <label class="form-label" for="user-policy">
-                            <span class="custom-checkbox">
-                                <svg
-                                    class="checkbox-icon"
-                                    width="10"
-                                    height="10"
-                                >
-                                    <use
-                                        href="./images/icons.svg#icon-checkbox"
-                                    ></use>
-                                </svg>
-                            </span>
-                            <span class="custom-checkbox-text">
-                                I accept the terms and conditions of the
-                                <a
-                                    class="user-policy-link"
-                                    href="#"
-                                    target="_blank"
-                                    >Privacy Policy</a
-                                >
-                            </span>
-                        </label>
-                    </div>
-
-                    <button class="modal-btn" type="submit">Send</button>
-                </form>
-            </div>
+      <div class="mobile-menu" data-menu>
+        <div>
+          <button class="mobile-menu-close-btn" type="button" data-menu-close>
+            <svg class="mobile-menu-close-icon" width="28" height="28">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-navbar">
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="/">Home</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="#">How it's made?</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="#">Chocolate is loved</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+        <ul class="mobile-menu-social-list">
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="no-referrer noopener"
+            >
+              <svg class="mobile-menu-socail-icon" width="22" height="22">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://x.com/"
+              target="_blank"
+              rel="no-referrer noopener"
+            >
+              <svg class="mobile-menu-socail-icon" width="22" height="22">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="hero-btns">
+            <button class="hero-button" type="button">Buy now</button>
+            <a class="made-section-anchor" href="#made">How it's made</a>
+            <a class="scroll-down-anchor" href="#"
+              >scroll down
+              <span class="scroll-down-wrapper">
+                <svg class="scroll-down-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-scroll-down"></use>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="benefits-section">
+        <div class="container">
+          <ul class="benefits-list">
+            <li class="benefits-item">
+              <div class="icon-wrapper">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-choco-bar"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-subtitle">Unsurpassed taste</h3>
+              <p class="benefits-text">
+                Crafted with the finest quality cocoa beans and a dedication to
+                perfection, each bite is a decadent experience that simply
+                cannot be matched. Savor the richness and complexity of our
+                Unsurpassed Taste and discover a new level of chocolate bliss.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <div class="icon-wrapper">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-coins"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-subtitle">Affordable price</h3>
+              <p class="benefits-text">
+                Indulge in high-quality chocolate without breaking the bank with
+                Simply Chocolate's selection of affordable treats. Enjoy
+                mouth-watering truffles and velvety chocolate bars without
+                sacrificing taste or quality. Browse our selection and indulge
+                in affordable luxury today.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <div class="icon-wrapper">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-spoon"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-subtitle">Own production</h3>
+              <p class="benefits-text">
+                We take pride in our own production process, ensuring that every
+                step is carefully crafted to perfection. From selecting the
+                finest ingredients to handcrafting each piece, our attention to
+                detail is evident in every bite.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="ingredients-section">
+        <div class="container">
+          <h2 class="section-title section-title-width">
+            It all adds up to one exceptional
+            <span class="section-title-color">taste</span> sensation
+          </h2>
+          <p class="ingredients-section-text">
+            At Simply Chocolate, we believe that the secret to exceptional
+            chocolate is in the details. From the sourcing of the finest
+            ingredients to the careful crafting of each individual piece, every
+            step of our process adds up to one exceptional taste sensation.
+          </p>
+          <ul class="ingredients-list">
+            <li class="ingredients-item orange-bg-card">
+              <picture>
+                <source
+                  srcset="
+                    ./images/comp-img/milk-chocolate-@1x.png 1x,
+                    ./images/comp-img/milk-chocolate-@2x.png 2x
+                  "
+                />
 
-        <script src="./js/menu.js"></script>
-        <script src="./js/modal.js"></script>
-    </body>
+                <img
+                  src="./images/comp-img/milk-chocolate-@1x.png"
+                  alt="Milk chocolate bar"
+                />
+              </picture>
+              <h3 class="ingredients-item-caption">Milk chocolate</h3>
+              <div class="card-overlay">
+                <h3 class="thumb-title">Milk chocolate</h3>
+                <div class="btn-wrapper">
+                  <button class="thumb-btn colored" type="button">
+                    Chocolate
+                  </button>
+                  <button class="thumb-btn transparent" type="button">
+                    The benefits
+                  </button>
+                </div>
+                <p class="thumb-text">
+                  Milk chocolate is a solid chocolate confectionery containing
+                  cocoa, sugar and milk. It is the most consumed type of
+                  chocolate. Chocolate was originally sold and consumed as a
+                  beverage in pre-Columbian times. Although four-fifths of all
+                  milk chocolate is sold in the United States and Europe.
+                </p>
+              </div>
+            </li>
+            <li class="ingredients-item white-bg-card">
+              <picture>
+                <source
+                  srcset="
+                    ./images/comp-img/milk-@1x.png 1x,
+                    ./images/comp-img/milk-@2x.png 2x
+                  "
+                />
+
+                <img
+                  src="./images/comp-img/milk-@1x.png"
+                  alt="Bottle of milk"
+                />
+              </picture>
+              <h3 class="ingredients-item-caption dark-color-text">Milk</h3>
+              <div class="card-overlay">
+                <h3 class="thumb-title">Milk</h3>
+                <div class="btn-wrapper">
+                  <button class="thumb-btn colored" type="button">Milk</button>
+                  <button class="thumb-btn transparent" type="button">
+                    The benefits
+                  </button>
+                </div>
+                <p class="thumb-text">
+                  Milk is a white liquid food produced by the mammary glands of
+                  mammals. It is the primary source of nutrition for young
+                  mammals (including breastfed human infants) before they are
+                  able to digest solid food.Early-lactation milk, which is
+                  called colostrum, contains antibodies that strengthen the
+                  immune system.
+                </p>
+              </div>
+            </li>
+            <li class="ingredients-item dark-bg-card">
+              <picture>
+                <source
+                  srcset="
+                    ./images/comp-img/nuts-@1x.png 1x,
+                    ./images/comp-img/nuts-@2x.png 2x
+                  "
+                />
+
+                <img src="./images/comp-img/nuts-@1x.png" alt="Hazelnuts" />
+              </picture>
+              <h3 class="ingredients-item-caption">Nuts</h3>
+              <div class="card-overlay">
+                <h3 class="thumb-title">Nuts</h3>
+                <div class="btn-wrapper">
+                  <button class="thumb-btn colored" type="button">Nuts</button>
+                  <button class="thumb-btn transparent" type="button">
+                    The benefits
+                  </button>
+                </div>
+                <p class="thumb-text">
+                  Almonds, pistachios, and walnuts are some types of nuts that
+                  contain healthy nutrients. When eaten as part of a
+                  nutrient-dense diet, these 9 nuts may offer benefits such as
+                  reducing your risk of heart disease. They're a good source of
+                  fiber, healthy fats, and plant protein. Plus, they're great on
+                  their own.
+                </p>
+              </div>
+            </li>
+            <li class="ingredients-item white-bg-card">
+              <picture>
+                <source
+                  srcset="
+                    ./images/comp-img/cocao-beans-@1x.png 1x,
+                    ./images/comp-img/cocao-beans-@2x.png 2x
+                  "
+                />
+
+                <img
+                  src="./images/comp-img/cocao-beans-@1x.png"
+                  alt="Cocoa beans"
+                />
+              </picture>
+              <h3 class="ingredients-item-caption dark-color-text">
+                Semi-sweet chocolate
+              </h3>
+              <div class="card-overlay">
+                <h3 class="thumb-title">Semi - sweet chocolate</h3>
+                <divc class="btn-wrapper">
+                  <button class="thumb-btn colored" type="button">
+                    Sweet chocolate
+                  </button>
+                  <button class="thumb-btn transparent" type="button">
+                    The benefits
+                  </button>
+                </divc>
+                <p class="thumb-text">
+                  Semi-sweet chocolate has a cocoa solid content of 35 to 65%.
+                  One of the best ways to gain an understanding of this type of
+                  chocolate is to compare it to a different type of chocolate.
+                  Semisweet is darker than milk chocolate. In a taste
+                  comparison, it has a slightly bitter taste whereas milk
+                  chocolate is sweeter and more mellow.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="made-section" id="made">
+        <div class="container">
+          <h2 class="section-title made-title">
+            How it's <span class="section-title-color">made?</span>
+          </h2>
+          <div class="made-flex">
+            <div class="made-img-wrapper">
+              <picture>
+                <source
+                  media="(max-width:767px)"
+                  srcset="
+                    ./images/made-img/made-mob-@1x.jpg 1x,
+                    ./images/made-img/made-mob-@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./images/made-img/made-@1x.jpg 1x,
+                    ./images/made-img/made-@2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/made-img/made-@1x.jpg"
+                  alt="Trickle of melted dark chocolate"
+                  width="600"
+                />
+              </picture>
+            </div>
+            <div class="made-text-wrapper">
+              <h3 class="made-subtitle">
+                Try our chocolates today and discover the perfect balance of
+                flavor
+              </h3>
+              <ul class="made-section-list">
+                <li class="made-section-item">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </li>
+                <li class="made-section-item">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </li>
+                <li class="made-section-item">
+                  "Mix" the milk mixture and already liquid butter. Mix
+                  thoroughly with a silicone spatula so that the mass becomes
+                  uniform and silky.
+                </li>
+                <li class="made-section-item">
+                  Heat the mixture over low heat, letting it barely boil.
+                </li>
+                <li class="made-section-item">
+                  Pour the chocolate into special containers (can be replaced
+                  with ice molds). Allow to cool and harden.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews-section" id="reviews">
+        <div class="container">
+          <h2 class="section-title review-title">
+            <span class="section-title-color">Chocolate</span> is loved
+          </h2>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <div class="img-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/reviews-img/img-1-@1x.jpg 1x,
+                      ./images/reviews-img/img-1-@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/reviews-img/img-1-@1x.jpg"
+                    alt="Young redhead girl"
+                  />
+                </picture>
+              </div>
+              <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
+              <p class="reviews-text">
+                I love this chocolate bar. Perfect combination of light crispy
+                wafer, covered in a thin layer chocolate.
+              </p>
+            </li>
+            <li class="reviews-item">
+              <div class="img-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/reviews-img/img-2-@1x.jpg 1x,
+                      ./images/reviews-img/img-2-@2x.jpg 2x
+                    "
+                  />
+
+                  <img
+                    src="./images/reviews-img/img-2-@1x.jpg"
+                    alt="Young redhead man"
+                  />
+                </picture>
+              </div>
+              <h3 class="reviews-subtitle">Nazar Babenko</h3>
+              <p class="reviews-text">
+                This chocolate confection is a delight! A delight! The wafer is
+                light and crisp, the hazelnut cream is smooth, and the chocolate
+                is good.
+              </p>
+            </li>
+            <li class="reviews-item">
+              <div class="img-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images//reviews-img/img-3-@1x.jpg 1x,
+                      ./images//reviews-img/img-3-@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images//reviews-img/img-3-@1x.jpg"
+                    alt="Young light girl"
+                  />
+                </picture>
+              </div>
+              <h3 class="reviews-subtitle">Olena Kampusch</h3>
+              <p class="reviews-text">
+                Chocolate is a family favourite treat. Love the delicious smooth
+                chocolate and the creaminess inside. The wafer is soft but
+                crunchy.
+              </p>
+            </li>
+          </ul>
+
+          <button class="review-button" type="button" data-modal-open>
+            Leave a review
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top-wrapper">
+          <p class="footer-text-title">
+            <span class="footer-accent-color">Chocolate</span> a delicious cure
+            for a bad day
+          </p>
+          <address class="contacts">
+            <p class="contact-text">Contact us</p>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="tel:+380684439426"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+              <li class="contact-item">
+                <a class="contact-link" href="mailto:simplychoc@gmail.com"
+                  >simplychoc@gmail.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-bottom-wrapper">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#made">How it's made?</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#reviews">Chocolate is loved</a>
+            </li>
+          </ul>
+
+          <form class="footer-form">
+            <label class="footer-label" for="user-email">
+              <input
+                type="email"
+                name="user-email"
+                class="footer-input"
+                id="user-email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="footer-subscibe-button" type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text-title">
+          leave a review about
+          <span class="modal-accent">our chocolate</span>
+        </p>
+
+        <form class="modal-form">
+          <div class="form-field">
+            <label class="form-label" for="user-name">Name</label>
+            <div class="input-wrapper">
+              <input
+                class="form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                required
+              />
+              <svg class="input-icon">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="user-email">Email</label>
+            <div class="input-wrapper">
+              <input
+                class="form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg class="input-icon">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="user-phone">Phone number</label>
+            <div class="input-wrapper">
+              <input
+                class="form-input"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                required
+              />
+              <svg class="input-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field textarea">
+            <label class="form-label" for="user-comment">Comment</label>
+            <textarea
+              class="form-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input
+              class="input-checkbox visually-hidden"
+              type="checkbox"
+              name="user-policy"
+              id="user-policy"
+              value="true"
+              required
+            />
+            <label class="form-label" for="user-policy">
+              <span class="custom-checkbox">
+                <svg class="checkbox-icon" width="10" height="10">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              <span class="custom-checkbox-text">
+                I accept the terms and conditions of the
+                <a class="user-policy-link" href="#" target="_blank"
+                  >Privacy Policy</a
+                >
+              </span>
+            </label>
+          </div>
+
+          <button class="modal-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
